@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="lv" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#16121c" />
+    <meta
+      name="description"
+      content="Vecu foto atjaunošana un mājdzīvnieku portreti ar mākslīgo intelektu. 5 sekunžu video dāvanā. Foto dzēšam 14 dienu laikā pēc piegādes."
+    />
+    <title>DzīvaBilde — atdzīvini foto ar MI</title>
+    <script>
+      try {
+        var storedLang = localStorage.getItem("dzivabilde-lang")
+        if (storedLang === "ru" || storedLang === "lv") {
+          document.documentElement.lang = storedLang
+        }
+      } catch (error) {
+        /* Latvian remains the default. */
+      }
+    </script>
+    <script type="module" crossorigin src="./assets/index-CfafE09y.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-B266BEx0.css">
+  </head>
+  <body>
+    <noscript>
+      <p style="margin: 0; padding: 16px; font-family: sans-serif; background: #16121c; color: #f4efe8">
+        DzīvaBilde — šai lapai vajag JavaScript. / Для этой страницы нужен JavaScript.
+      </p>
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>
